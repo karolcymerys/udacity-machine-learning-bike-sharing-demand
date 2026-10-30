@@ -32,8 +32,8 @@ python -m venv .venv
 udacity-machine-learning-bike-sharing-demand/
 ├── project/
 │   ├─── img/
-│   ├─── project-template.html   # Project workspace report as HTML
-│   ├─── project-template.ipynb  # Project workspace
-│   └─── report.md               # Report file
-└── README.md                    # README file
+│   ├─── project.html   # Project workspace report as HTML
+│   ├─── project.ipynb  # Project workspace
+│   └─── report.md      # Report file
+└── README.md           # README file
 ```

@@ -19,7 +19,7 @@ While performing exploratory analysis I found out the distributions of all varia
 * **datetime_hour**, **datetime_day**, **datetime_month** almost have uniform distribution (with few peaks)
 
 Following features were introduced:
-- I represented **datetime** as **hour**, **day**, **month** (**datetime** is represented as numeric value, however, it's very useful for Machine Learning, because we look for some patterns that happens at specific hours every day or in specific seasons `month`, `day`)
+- I represented **datetime** as **hour**, **day**, **month** (**datetime** is represented as numeric value, however, it's not very useful for Machine Learning model, because we look for some patterns that happens at specific hours (`hour`) every day or in specific seasons (`month`, `day`))
 - `season` and `weather` were encoded using **one-hot encoding** (following variables are not ordinal category variables (there is no correlation between options), so it makes more sense to represent them as binary variables)
 
 ### How much better did your model preform after adding additional features and why do you think that is?
